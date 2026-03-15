@@ -1,0 +1,21 @@
+{
+  "name": "llm-chat-tests",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.6.2",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.8",
+    "@types/node": "^20.11.30",
+    "@types/supertest": "^6.0.2",
+    "@types/uuid": "^9.0.8",
+    "supertest": "^6.3.4",
+    "vitest": "^1.4.0"
+  }
+}

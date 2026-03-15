@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+client/node_modules/
+tests/node_modules/
+
+# Build outputs
+dist/
+client/dist/
+*.log
+
+# Database files
+chat.db
+chat.db-shm
+chat.db-wal
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
